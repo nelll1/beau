@@ -12,3 +12,22 @@ body{
 .nav-item{
     padding: 0 20px;
 }
+.build-process h2{
+    font-weight: 500;
+    color: #4E60B1;
+}
+.evo-btn{
+    background-color: #4E60B1;
+    color: #ffff;
+}
+.evo-btn:hover{
+    transition: 0.3s;
+    background-color: #4e60b1b5;
+    color: #ffff;
+}
+.h2-portal{
+    background: -webkit-linear-gradient(right,#3a93ff,#8053ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
