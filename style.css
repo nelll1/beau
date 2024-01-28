@@ -31,3 +31,16 @@ body{
     -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
+.h2-pages{
+    background: -webkit-linear-gradient(right,#208ae9,#38c285);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-weight: 500;
+}
+.sign-up-container{
+    background: linear-gradient(138deg, rgb(120, 223, 192) 0%, rgb(105, 189, 209) 100%);
+}
+.sign-up-container h1{
+    color: white;
+    font-size: 4rem;
+}
