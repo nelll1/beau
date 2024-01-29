@@ -44,3 +44,21 @@ body{
     color: white;
     font-size: 4rem;
 }
+.howBeauWorks-header span{
+    color: rgb(111, 134, 144);
+    letter-spacing: 3.2px;
+}
+.howItWorks-header{
+    padding: 12px;
+    background: -webkit-linear-gradient(175deg,#29c7bd,#27cf6a);
+    -webkit-background-clip: text;
+    color: #38c285;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.guide h2{
+    background:-webkit-linear-gradient(0deg,#a87fe5 6.46%,#e57fbc 92.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
