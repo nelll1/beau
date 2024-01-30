@@ -1,9 +1,23 @@
-function loadContent(page) {
-    fetch(page)
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById('content-container').innerHTML = html;
-      })
-      .catch(error => console.error('Error fetching page:', error));
+function outPageAnimation(){
+  const outPage = document.querySelectorAll('.custom-Header');
+  for(let i = 0; i < outPage.length; i++){
+    outPage[i].classList.add('animate__animated', 'animate__fadeOutDown');
   }
+}
+
+function homePage(){
+  outPageAnimation()
+  setTimeout(() => {
+    // Change the URL to the desired destination
+    window.location.href = 'index.html';
+}, 2000);
+}
+
+function howPage(){
+  outPageAnimation()
   
+  setTimeout(() => {
+    // Change the URL to the desired destination
+    window.location.href = 'howItWork.html';
+}, 1000);
+}

@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beau</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <section class="home-section">
   <nav class="navbar navbar-expand-lg py-xxl-5 px-xxl-5 rounded" aria-label="Eleventh navbar example">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><svg data-v-38c81c9a="" width="78" height="25" viewBox="0 0 78 25" xmlns="http://www.w3.org/2000/svg" class=""><path data-v-38c81c9a="" fill-rule="evenodd" clip-rule="evenodd" d="M9.16648 6.73854C14.3279 6.73854 18.0481 10.9333 18.0481 15.8693C18.0481 20.8053 14.3279 25 9.16648 25C6.75337 25 4.60838 24.0735 3.04991 22.3383V24.5957H0V0H3.04991V9.40027C4.60838 7.68194 6.75337 6.73854 9.16648 6.73854ZM8.66375 22.254C12.2164 22.254 14.9479 19.3902 14.9479 15.8693C14.9479 12.3484 12.2164 9.4845 8.66375 9.4845C6.1836 9.4845 4.07213 10.9164 3.04991 12.9885V18.8005C4.07213 20.8558 6.1836 22.254 8.66375 22.254ZM29.879 22.3551C26.5275 22.3551 23.9803 19.9461 23.6452 16.8295H38.4087C38.4925 16.4589 38.5595 15.9198 38.5595 15.4818C38.5595 10.6806 34.8896 6.73854 29.7115 6.73854C24.4328 6.73854 20.5282 10.8154 20.5282 15.8693C20.5282 20.9232 24.3155 25 29.9628 25C32.996 25 35.6269 23.8544 37.4535 21.7823L35.3588 19.8282C33.9344 21.3949 32.0073 22.3551 29.879 22.3551ZM29.7115 9.38342C26.8124 9.38342 24.3657 11.5061 23.7625 14.2857H35.3588C34.8896 11.4724 32.6441 9.38342 29.7115 9.38342ZM56.0378 18.8005C55.0156 20.8558 52.9042 22.254 50.424 22.254C46.8714 22.254 44.1399 19.3902 44.1399 15.8693C44.1399 12.3484 46.8714 9.4845 50.424 9.4845C52.9042 9.4845 55.0156 10.9164 56.0378 12.9885V18.8005ZM49.9213 6.73854C52.3344 6.73854 54.4794 7.68194 56.0378 9.40027V7.14286H59.0878V24.5957H56.0378V22.3383C54.4794 24.0735 52.3344 25 49.9213 25C44.7599 25 41.0397 20.8053 41.0397 15.8693C41.0397 10.9333 44.7599 6.73854 49.9213 6.73854ZM74.9501 7.14286V18.7163C73.8944 20.4852 72.0678 22.254 69.8893 22.254C67.2248 22.254 65.3814 20.3167 65.3814 17.7055V7.14286H62.3315V17.874C62.3315 22.0856 65.2139 25 69.3195 25C71.7494 25 73.71 23.5512 74.9501 21.9171V24.5957H78V7.14286H74.9501Z"></path></svg></a>
+      <a class="navbar-brand" href="#" onclick="homePage()"><svg data-v-38c81c9a="" width="78" height="25" viewBox="0 0 78 25" xmlns="http://www.w3.org/2000/svg" class=""><path data-v-38c81c9a="" fill-rule="evenodd" clip-rule="evenodd" d="M9.16648 6.73854C14.3279 6.73854 18.0481 10.9333 18.0481 15.8693C18.0481 20.8053 14.3279 25 9.16648 25C6.75337 25 4.60838 24.0735 3.04991 22.3383V24.5957H0V0H3.04991V9.40027C4.60838 7.68194 6.75337 6.73854 9.16648 6.73854ZM8.66375 22.254C12.2164 22.254 14.9479 19.3902 14.9479 15.8693C14.9479 12.3484 12.2164 9.4845 8.66375 9.4845C6.1836 9.4845 4.07213 10.9164 3.04991 12.9885V18.8005C4.07213 20.8558 6.1836 22.254 8.66375 22.254ZM29.879 22.3551C26.5275 22.3551 23.9803 19.9461 23.6452 16.8295H38.4087C38.4925 16.4589 38.5595 15.9198 38.5595 15.4818C38.5595 10.6806 34.8896 6.73854 29.7115 6.73854C24.4328 6.73854 20.5282 10.8154 20.5282 15.8693C20.5282 20.9232 24.3155 25 29.9628 25C32.996 25 35.6269 23.8544 37.4535 21.7823L35.3588 19.8282C33.9344 21.3949 32.0073 22.3551 29.879 22.3551ZM29.7115 9.38342C26.8124 9.38342 24.3657 11.5061 23.7625 14.2857H35.3588C34.8896 11.4724 32.6441 9.38342 29.7115 9.38342ZM56.0378 18.8005C55.0156 20.8558 52.9042 22.254 50.424 22.254C46.8714 22.254 44.1399 19.3902 44.1399 15.8693C44.1399 12.3484 46.8714 9.4845 50.424 9.4845C52.9042 9.4845 55.0156 10.9164 56.0378 12.9885V18.8005ZM49.9213 6.73854C52.3344 6.73854 54.4794 7.68194 56.0378 9.40027V7.14286H59.0878V24.5957H56.0378V22.3383C54.4794 24.0735 52.3344 25 49.9213 25C44.7599 25 41.0397 20.8053 41.0397 15.8693C41.0397 10.9333 44.7599 6.73854 49.9213 6.73854ZM74.9501 7.14286V18.7163C73.8944 20.4852 72.0678 22.254 69.8893 22.254C67.2248 22.254 65.3814 20.3167 65.3814 17.7055V7.14286H62.3315V17.874C62.3315 22.0856 65.2139 25 69.3195 25C71.7494 25 73.71 23.5512 74.9501 21.9171V24.5957H78V7.14286H74.9501Z"></path></svg></a>
       <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,7 +23,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="howItWork.html">How it Works</a></li>
+              <li><a class="dropdown-item" href="#">How it Works</a></li>
               <li><a class="dropdown-item" href="#">Intigrations</a></li>
               <li><a class="dropdown-item" href="#">Templates</a></li>
             </ul>
@@ -60,9 +62,9 @@
   <div class="howBeauWorks-header">
     <div class="p-5 text-center">
       <div class="container py-5">
-        <span>HOW BEAU WORKS</span>
-        <h1 class="howItWorks-header display-1 text-sm" style="color: rgb(111, 134, 144);">3 easy steps</h1>
-        <p class="col-lg-8 mx-auto lead fs-5">
+        <span class="custom-Header animate__animated animate__fadeInUp animate__slow">HOW BEAU WORKS</span>
+        <h1 class="howItWorks-header display-1 text-sm custom-Header animate__animated animate__fadeInUp animate__slow" style="color: rgb(111, 134, 144);">3 easy steps</h1>
+        <p class="col-lg-8 mx-auto lead fs-5 custom-Header animate__animated animate__fadeInUp animate__slow">
             To start automating away your manual work and repetitive customer-facing tasks.
         </p>
       </div>
@@ -74,21 +76,21 @@
 <section>
     <div class="container px-4" id="featured-3">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
-          <div class="feature col">
+          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                 <img src="Images/howitworks01.922ecda.png" class="img-fluid" alt="">
             </div>
             <h3 class="fs-2 text-body-emphasis">Build a process</h3>
             <p>Design step-by-step client workflows and forms with our visual builder. No coding skills required.</p>
           </div>
-          <div class="feature col">
+          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                 <img src="Images/howitworks02.33deac6.png" class="img-fluid" alt="">
             </div>
             <h3 class="fs-2 text-body-emphasis">Share the link</h3>
             <p>Grab a customizable link and send it your customers or partners.</p>
           </div>
-          <div class="feature col">
+          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
                 <img src="Images/howitworks03.8b904b3.png" class="img-fluid" alt="">
             </div>
