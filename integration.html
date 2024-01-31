@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main class="integ-body">
 <section class="home-section">
   <nav class="navbar navbar-expand-lg py-xxl-5 px-xxl-5 rounded" aria-label="Eleventh navbar example">
     <div class="container-fluid">
@@ -23,8 +24,8 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Product</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">How it Works</a></li>
-              <li><a class="dropdown-item" href="#" onclick="integPage()">Intigrations</a></li>
+              <li><a class="dropdown-item" href="#" onclick="howPage()">How it Works</a></li>
+              <li><a class="dropdown-item" href="#">Intigrations</a></li>
               <li><a class="dropdown-item" href="#">Templates</a></li>
             </ul>
           </li>
@@ -59,13 +60,14 @@
     </div>
   </nav>
 
+
   <div class="howBeauWorks-header">
     <div class="p-5 text-center">
       <div class="container py-5">
-        <span class="custom-Header animate__animated animate__fadeInUp animate__slow">HOW BEAU WORKS</span>
-        <h1 class="howItWorks-header display-1 text-sm custom-Header animate__animated animate__fadeInUp animate__slow" style="color: rgb(111, 134, 144);">3 easy steps</h1>
+        <span class="custom-Header animate__animated animate__fadeInUp animate__slow">Beau + Zapier = 🧡</span>
+        <h1 class="integ-header display-1 text-sm custom-Header animate__animated animate__fadeInUp animate__slow">3,000+ apps</h1>
         <p class="col-lg-8 mx-auto lead fs-5 custom-Header animate__animated animate__fadeInUp animate__slow">
-            To start automating away your manual work and repetitive customer-facing tasks.
+            Connect Beau with Zapier without writing any code and automate your work with clients!
         </p>
       </div>
     </div>
@@ -73,54 +75,35 @@
 
 </section>
 
+
 <section>
-    <div class="container px-4" id="featured-3">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-center">
-          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                <img src="Images/howitworks01.922ecda.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Build a process</h3>
-            <p>Design step-by-step client workflows and forms with our visual builder. No coding skills required.</p>
-          </div>
-          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                <img src="Images/howitworks02.33deac6.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Share the link</h3>
-            <p>Grab a customizable link and send it your customers or partners.</p>
-          </div>
-          <div class="feature col custom-Header animate__animated animate__fadeInUp animate__slow">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-                <img src="Images/howitworks03.8b904b3.png" class="img-fluid" alt="">
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Collaborate!</h3>
-            <p>Collaborate, strategics, and coordinate together with your customers.</p>
-          </div>
-        </div>
+    <div class="container">
+        <img src="Images/integ.svg" class="img-fluid custom-Header  animate__animated animate__fadeInUp animate__slow" alt="">
+    </div>
+    
+<div class="container my-5 py-5 text-center fs-5">
+    <div class="row">
+      <!-- First Column -->
+      <div class="col-md-6" style="text-align: start;">
+        <p>If your work is scattered across different tools but you onboard and guide clients with Beau, our Zapier integration is here to help keep everything in sync.
+
+            In Zapier, something that happens in one app acts as a "trigger" to launch "actions" in another app.
+            
+            Create Zaps to bring clients' data from your client portals directly to other apps, so you never miss important information!</p>
       </div>
+  
+      <!-- Second Column -->
+      <div class="col-md-6" style="text-align: start;">
+        <p>Busy professionals like you need tools that allow them to work smarter, not harder. Set up any number of our integrations today to boost your productivity, cut out the annoying busywork, and tidy up your virtual clutter.
+
+            Now you can integrate Beau into your daily workflow seamlessly by automating all kinds of time-consuming tasks, with zero coding required.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="guide">
-    <div class="px-4 py-5 my-4 text-center">
-        <h2 class="display-5 ">Build your process, share a link</h2>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Design step-by-step client workflows and forms with our visual builder.
-            No coding skills required.
-        </p>
-        </div>
-        <div class="my-5">
-            <img class="d-block mx-auto mb-4 custom-image img-fluid" src="Images/hooo.svg" alt="evolution-illustration" width="1100" height="260">
-        </div>
-      </div>  
-</section>
 
-<section class="visual-editor">
-    <div class="px-4 py-5 my-4 text-center">
-        <img class="d-block mx-auto mb-1 custom-image img-fluid" src="Images/use-editor.d47e65f.png" alt="evolution-illustration" width="1000" height="260">
-        <h2 class="display-5">Use a visual editor to build step-by-step client workflows</h2>
-      </div>    
-</section>
+
 
 <section class="sign-up">
     <div class="container my-5">
@@ -182,8 +165,8 @@
       </footer>
     </div>
   </section>
-
-
+ 
+</main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="main.js"></script>
 </body>

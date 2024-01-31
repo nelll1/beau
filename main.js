@@ -21,3 +21,11 @@ function howPage(){
     window.location.href = 'howItWork.html';
 }, 1000);
 }
+function integPage(){
+  outPageAnimation()
+  
+  setTimeout(() => {
+    // Change the URL to the desired destination
+    window.location.href = 'integration.html';
+}, 1000);
+}
