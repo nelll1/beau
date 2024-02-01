@@ -70,3 +70,19 @@ body{
     font-weight: 600;
     font-family: "Graduate", serif;
 }
+.trigger span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(111, 134, 144) ;
+}
+.trigger h3{
+    color: #38383e;
+    font-weight: 400;
+}
+.custom-border{
+    border: #38383e 1px solid;
+    padding: 7px;
+}
+.custom-bg{
+    background-color: white;
+}

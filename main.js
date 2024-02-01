@@ -8,7 +8,7 @@ function outPageAnimation(){
 function homePage(){
   outPageAnimation()
   setTimeout(() => {
-    // Change the URL to the desired destination
+    //  destination
     window.location.href = 'index.html';
 }, 2000);
 }
@@ -17,7 +17,7 @@ function howPage(){
   outPageAnimation()
   
   setTimeout(() => {
-    // Change the URL to the desired destination
+    // destination
     window.location.href = 'howItWork.html';
 }, 1000);
 }
@@ -25,7 +25,7 @@ function integPage(){
   outPageAnimation()
   
   setTimeout(() => {
-    // Change the URL to the desired destination
+    // destination
     window.location.href = 'integration.html';
 }, 1000);
 }
